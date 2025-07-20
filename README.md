@@ -1,1 +1,1 @@
-This is a project for life code practice.
+This is a project for life coding practice.
