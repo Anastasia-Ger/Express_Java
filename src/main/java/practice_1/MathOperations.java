@@ -1,7 +1,6 @@
 package practice_1;
 
 public class MathOperations {
-    double speed;
     public int add (int x, int y) {
         return x + y;
     }
@@ -30,6 +29,7 @@ public class MathOperations {
         return (double) seconds / 60.0;
     }
     public double averageSpeed (double distanse, double time) {
+        double speed = 0.0;
         if (time != 0) {
             speed = distanse / time;
         } return speed;

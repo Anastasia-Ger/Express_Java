@@ -27,7 +27,7 @@ public class Main {
         double minutes = mo.convertSecondsToMinutes(365);
         System.out.println(minutes);
         double speed = mo.averageSpeed(150, 5);
-        System.out.println(speed);
+        System.out.println("Average speed is: " + speed);
         double hypotenuse = mo.findHypotenuse(4.5, 7);
         System.out.println(hypotenuse);
         double cicCirc = mo.circleCircumference(6);
