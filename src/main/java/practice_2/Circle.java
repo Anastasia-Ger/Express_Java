@@ -1,7 +1,7 @@
 package practice_2;
 
 public class Circle {
-    float radius;
+    private float radius;
 
     public Circle(float radius) {
         this.radius = radius;

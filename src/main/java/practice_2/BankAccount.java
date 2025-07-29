@@ -1,8 +1,8 @@
 package practice_2;
 
 public class BankAccount {
-    String owner;
-    double balance;
+    private String owner;
+    private double balance;
 
     public BankAccount(String owner, double balance) {
         this.owner = owner;

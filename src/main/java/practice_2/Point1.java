@@ -1,8 +1,8 @@
 package practice_2;
 
 public class Point1 {
-    int x;
-    int y;
+    private int x;
+    private int y;
 
     public Point1(int x, int y) {
         this.x = x;

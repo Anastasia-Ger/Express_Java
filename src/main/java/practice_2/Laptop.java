@@ -1,8 +1,8 @@
 package practice_2;
 
 public class Laptop {
-    String brand;
-    double price;
+    private String brand;
+    private double price;
 
     public Laptop(String brand, double price) {
         this.brand = brand;
@@ -18,7 +18,7 @@ public class Laptop {
     }
 
     public void setBrand(String newBrand) {
-        this.brand = brand;
+        this.brand = newBrand;
     }
 
     public void setPrice(double price) {

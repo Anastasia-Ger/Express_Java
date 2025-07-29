@@ -48,7 +48,7 @@ public class Main {
 // Problem Rectangle
         Rectangle rectangle = new Rectangle(3, 6);
         rectangle.setWidth(5);
-        System.out.println("Square area is: " + rectangle.getWidth() * rectangle.getHeight());
+        rectangle.calculateArea();
 // Problem Book
         Book book = new Book("War and peace", "Lev Tolstoy");
         book.setAuthor("Aleksei Tolstoy");

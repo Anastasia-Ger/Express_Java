@@ -1,8 +1,8 @@
 package practice_2;
 
 public class Rectangle {
-    int width;
-    int height;
+    private int width;
+    private int height;
 
     public Rectangle(int width, int height) {
         this.width = width;
@@ -19,5 +19,9 @@ public class Rectangle {
 
     public void setWidth(int newWidth) {
         width = newWidth;
+    }
+    public void setHeight(int newHeight) {height = newHeight;}
+    public void calculateArea() {
+        System.out.println("Area of the rectangle is: " + width * height);
     }
 }

@@ -1,8 +1,8 @@
 package practice_2;
 
 public class Car {
-    String brand;
-    int year;
+    private String brand;
+    private int year;
 
     public Car(String newBrand, int newYear) {
         this.brand = newBrand;
