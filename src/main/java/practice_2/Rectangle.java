@@ -20,7 +20,11 @@ public class Rectangle {
     public void setWidth(int newWidth) {
         width = newWidth;
     }
-    public void setHeight(int newHeight) {height = newHeight;}
+
+    public void setHeight(int newHeight) {
+        height = newHeight;
+    }
+
     public void calculateArea() {
         System.out.println("Area of the rectangle is: " + width * height);
     }
