@@ -1,9 +1,14 @@
 package practice_3;
 
 public class GameSetting {
-    public static int maxPlayers = 10;
+    private static int maxPlayers = 10;
     final String gameName;
     int currentPlayers;
+
+    public static int getMaxPlayers() {
+        return maxPlayers;
+    }
+
     public GameSetting(String name, int currentPlayers) {
         this.gameName = name;
         this.currentPlayers = currentPlayers;

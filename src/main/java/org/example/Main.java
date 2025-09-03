@@ -22,10 +22,10 @@ public class Main {
         System.out.println("Hellen works in " + hellen.companyName);
 
         // Class MathConstans
-        System.out.println("Circle Area of 15 is: " + MathConstans.calculateCircleArea(15));
-        System.out.println("Circle Circumference of 15 is: " + MathConstans.calculateCircumference(15));
-        System.out.println("Circle Area of 9 is: " + MathConstans.calculateCircleArea(9));
-        System.out.println("Circle Circumference of 9 is: " + MathConstans.calculateCircumference(9));
+        System.out.println("Circle Area of 15 is: " + MathConstants.calculateCircleArea(15));
+        System.out.println("Circle Circumference of 15 is: " + MathConstants.calculateCircumference(15));
+        System.out.println("Circle Area of 9 is: " + MathConstants.calculateCircleArea(9));
+        System.out.println("Circle Circumference of 9 is: " + MathConstants.calculateCircumference(9));
 
         // Class University
         University ann = new University(11, "Ann");
@@ -50,15 +50,14 @@ public class Main {
 
         // Class Person
         Person will = new Person("Will", "Smith", "234-22-234");
-        will.printPersonalInfo();
+        System.out.println(will);
         will.setFirstName("Max");
-        will.printPersonalInfo();
+        System.out.println(will);
 
         Person john = new Person("John", "Keller", "123-123-00");
-        john.printPersonalInfo();
+        System.out.println(john);
         john.setLastName("Tramp");
-        john.printPersonalInfo();
-
+        System.out.println(john);
 
     }
 }

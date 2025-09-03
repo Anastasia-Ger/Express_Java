@@ -1,6 +1,6 @@
 package practice_3;
 
-public class MathConstans {
+public class MathConstants {
     static final double PI = 3.14159;
     static final double E = 2.71828;
     public static double calculateCircleArea(double r) {

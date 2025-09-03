@@ -17,9 +17,9 @@ public class University {
         return studentName;
     }
     public void printStudentInfo() {
-        String rusult = String.format("Student Name: %s, Student ID: %s, University Name: %s",
+        String result = String.format("Student Name: %s, Student ID: %s, University Name: %s",
                 studentName, studentID, universityName);
-        System.out.println(rusult);
+        System.out.println(result);
     }
 
 }

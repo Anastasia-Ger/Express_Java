@@ -30,9 +30,9 @@ public class Person {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-    public void printPersonalInfo() {
-        String result = String.format("First Name: %s, Last Name: %s, SSN: %s",
+    @Override
+    public String toString() {
+        return String.format("First Name: %s, Last Name: %s, SSN: %s",
                 firstName, lastName, ssn);
-        System.out.println(result);
     }
 }
